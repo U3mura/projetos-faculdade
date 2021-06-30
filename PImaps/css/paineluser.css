@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    border-radius: 20px;
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);;
+    padding-bottom: 30px;
+    margin-bottom: 130px;
+}
+
+#Intro {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: Atari;
+    color: #5bff4a;
+	text-shadow: 2px 2px black;
+}
+
+
+.botao {
+    font-family: Atari;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #000000;
+    background-color: #5bff4a;
+    border: 2px black;
+}

@@ -1,0 +1,54 @@
+h1 {
+	font-family: Atari;
+	color: #5bff4a;
+  text-shadow: 2px 2px black;
+}
+
+h3 {
+  text-shadow: 2px 2px black;
+font-family: Atari;
+color: #5bff4a
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+main {
+  padding: 5vw 10vw 0 10vw;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  padding-bottom: 6vw;
+}
+
+.label, p{
+    font-size: 2vh;
+}
+
+.div1 {
+  padding: 0.5% 0 0 1%;
+	display: inline-block;
+  position:absolute;
+  left:55px;
+	width: 50%;
+}
+.input, .optgroup, select, textarea{
+  width: 90%;
+}
+
+.div2 {
+  margin-top: 30px;
+  text-align: justify;
+	display: inline-block;
+  position:absolute;
+  max-width: 800px;
+  right:150px;
+}
+
+footer {
+	height: 4vh;
+	background-color: #000000;
+}

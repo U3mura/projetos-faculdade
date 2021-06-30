@@ -1,0 +1,54 @@
+@font-face {
+	font-family: Atari;
+	src: url(../Utilitarios/Fontes/AtariST8x16SystemFont.ttf)
+}
+body {
+	background: #000000;
+}
+main {
+	margin: 10px 10px 0 0;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-gap: 10px;
+	overflow: hidden;
+	height: 90vh;
+	
+}
+.div-1 {
+	padding: 2%;
+	background-color: #303030;
+}
+
+.div-2 {
+	box-sizing: content-box;
+	background-color: gray;
+}
+
+#mapa {
+	position: static; !important;
+}
+
+
+h1 {
+	font-family: Atari;
+    color: #5bff4a;
+	text-shadow: 2px 2px black;
+}
+
+p, a{
+	font-family: Atari;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px black;
+}
+#dropdownMenuButton1{
+	font-family: Atari;
+	background: rgb(64, 143, 64);
+	border-style: 4px #000000;
+	padding: 10px 10px;
+	margin-bottom: 30px;
+}
+
+#lon, #lat {
+	color: white;
+	border-style: none;
+}
