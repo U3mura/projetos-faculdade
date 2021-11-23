@@ -1,8 +1,5 @@
 # Uma vez basta!!!
 
-  <img src="https://raw.githubusercontent.com/U3mura/UmaVezBasta/main/Screenshot_6.png" width = "250"/>
-
-
 ### Feito por:
 - Kariane Coura
 - Pedro Uemura
