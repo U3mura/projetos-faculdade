@@ -1,0 +1,32 @@
+<h1 class="titulos1">Produtos</h1>
+<p class="texto1">Gerenciar produtos</p>
+
+<ul class="menu">
+  <li (click)="novoProduto()">
+    Menu Gerenciador
+  </li>
+</ul>
+
+<div class="interface" *ngIf="produtoEdicao && categoriaEdicao != undefined">
+  <h3>Inserir/Editar Produtos</h3>
+  <input placeholder="Nome" [(ngModel)]="produtoEdicao.nome"> <br>
+  <input placeholder="Preço" [(ngModel)]="produtoEdicao.preco"> <br>
+  <input placeholder="Descriçao" [(ngModel)]="produtoEdicao.descricao"> <br>
+  <input placeholder="Estoque" [(ngModel)]="produtoEdicao.estoque"> <br>
+  <input placeholder="Categoria" [(ngModel)]="categoriaEdicao.id"> <br>
+  <button (click)="cancelar()">Cancelar</button>
+  <button (click)="salvar()">Salvar</button>
+</div>
+
+<div *ngFor="let produto of produtos" class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">{{produto.nome}}</h5>
+    <p class="card-text">{{produto.descricao}}</p>
+    <p class="card-text"><b>Estoque: </b>{{produto.estoque}}
+      <br>
+      <b>R$ {{produto.preco}}</b></p>
+    <a class="botao" (click) = "selecionarProduto(produto)" class="btn btn-primary">Editar</a>
+    <a class="botao" (click) = "excluir(produto)" class="btn btn-primary">Remover</a>
+  </div>
+</div>
