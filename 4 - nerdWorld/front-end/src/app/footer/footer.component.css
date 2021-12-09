@@ -1,0 +1,8 @@
+#logo:hover {
+    width: 30px;
+    height: 30px;
+}
+
+a:hover {
+    font-weight: bold;
+}
